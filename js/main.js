@@ -28,7 +28,7 @@ $(document).ready(function(){
     let task6 = $('.row')
     $(task6).eq(1). removeClass('row')
     // — прочитайте CSS-свойство color у второй гиперсылки в тексте
-    let task7 = $('a')
+    let task7 = $('a:eq(1)')
     console.log(task7.css('color'))
 })
 
