@@ -15,7 +15,7 @@ let task2 = $('em')
 task2.addClass('selected')
 // — Найдите все элементы mark, которые находятся в div с классом row и задайте им
 // класс .selected
-let task3 = $('mark')
+let task3 = $(".row mark")
 task3.addClass('selected')
 // — Найдите все гиперссылки и удалите у них подчеркивания
 let task4 = $('a')
